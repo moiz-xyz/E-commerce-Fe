@@ -6,10 +6,10 @@ const Layout = () => {
   return (
     <>
       <Navbar/>
-      <div>
-      <Outlet/>
+      <main className="pt-[80px]"> 
+        <Outlet />
+      </main>
 
-      </div>
       <Footer/>
     </>
   )
