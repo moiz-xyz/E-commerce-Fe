@@ -1,9 +1,15 @@
+import { BrowserRouter } from "react-router"
+import AppRouter from "./config/Router"
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <>
+  {/* This is where routing is being done */}
+      <BrowserRouter>
+      <AppRouter/>
+      </BrowserRouter>
+
+    </>
   )
 }
 
